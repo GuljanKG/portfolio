@@ -1,3 +1,3 @@
 # portfolio
 
-Live on: https://guljankg.github.io/portfolio/
+Live demo: https://guljankg.github.io/portfolio/
