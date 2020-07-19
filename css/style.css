@@ -278,6 +278,10 @@ nav a:hover {
     box-shadow: var(--bs);
 }
 
+.about-me p {
+margin-top: 5px;
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -333,12 +337,15 @@ nav a:hover {
 .portfolio__item {
     overflow: hidden;
     padding-top: 70px;
+    padding: 15px;
 }
 
 .portfolio__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+      
+
 }
 
 .portfolio__item:focus {
@@ -382,17 +389,3 @@ nav a:hover {
 }
 
 
-
-/* Individual portfolio item styles */
-
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
